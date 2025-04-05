@@ -1,0 +1,66 @@
+.price-list-article-section {
+  position: relative; /* Pozisyonu ayarlıyoruz */
+  background-image: url("https://res.cloudinary.com/di9qvtepw/image/upload/q_auto,f_webp/v1/all-images/App-images/paslanmaz-civata"); /* Arka plan görseli */
+  background-size: cover; /* Görseli kapla */
+  background-position: center; /* Ortala */
+  padding: 4rem 0;
+  width: 100%;
+}
+
+.price-list-article-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6); /* Hafif karartma */
+  z-index: 1; /* Metnin üstünde olmasını sağla */
+}
+
+.article-content {
+  position: relative; /* İçerik pozisyonunu ayarlıyoruz */
+  z-index: 2; /* Arka planın üstünde görünmesi için */
+}
+
+.article-subtitle {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+.article-text {
+  margin-top: 2rem; /* article-content ile article-text arasında boşluk ekledik */
+}
+
+.article-text p {
+  color: #a0aab3;
+  font-size: 1.1rem;
+  line-height: 30px;
+  text-align: justify;
+}
+
+@media (max-width: 768px) {
+  .article-subtitle {
+    font-size: 1.2rem;
+    margin: 2rem 0 1rem;
+  }
+
+  .article-text p {
+    font-size: 1rem;
+  }
+
+  .article-image-wrapper {
+    margin: 1.5rem 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .article-subtitle {
+    font-size: 1rem;
+  }
+
+  .article-text p {
+    font-size: 0.9rem;
+  }
+}

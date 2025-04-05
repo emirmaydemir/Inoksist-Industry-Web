@@ -1,0 +1,289 @@
+/* Blog ana içeriği */
+
+.blog-image-container {
+  position: relative;
+  width: 100%;
+  height: 420px; /* Varsayılan yükseklik */
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 10px; /* Köşeleri yuvarlama */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.blog-image {
+  width: 100%;
+  height: 100%;
+}
+
+.blog-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  text-align: justify;
+}
+
+.main-description {
+  font-size: 1.2rem;
+  color: #555;
+  text-align: justify;
+  line-height: 30px;
+}
+
+.subtitle {
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: #0078ff;
+  text-align: left;
+}
+
+.description {
+  font-size: 1.2rem;
+  color: #666;
+  line-height: 30px;
+  text-align: justify;
+}
+
+.blog-main-content {
+  margin-right: 10px; /* Sağ tarafa 20px margin ekler */
+}
+
+.description h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.description a {
+  text-decoration: none;
+}
+
+/*Table*/
+
+.description table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 18px;
+  text-align: left;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.description table th,
+.description table td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+.description table thead {
+  background-color: #004080;
+  color: white;
+  font-weight: bold;
+}
+
+.description table tbody tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+.description table tbody tr:hover {
+  background-color: #d6e4f0;
+}
+
+/* Video Tasarımı */
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  aspect-ratio: 16 / 9; /* Video oranını korur */
+  border: 4px solid #0078ff;
+  border-radius: 15px;
+  overflow: hidden; /* Taşmayı önler */
+  margin: 50px 0;
+}
+
+.video-wrapper iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.video-placeholder {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background-color: #000;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.video-placeholder img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.play-button {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.play-button:hover {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+/* Related Blogs kısmı */
+.related-blogs-wrapper {
+  top: 20px; /* Sayfanın üstünden ne kadar mesafede sabit kalacağını belirler */
+  height: fit-content; /* İçeriğin yüksekliğine göre boyutlanır */
+  max-height: 250vh; /* Yüksekliği sınırla ki ekranı tamamen kaplamasın */
+  overflow-y: auto; /* İçerik fazla olursa kaydırma çubuğu ekler */
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.related-blogs-wrapper h3 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.related-blogs-container {
+  display: grid;
+  grid-template-columns: 1fr; /* Tek kolon, her blog alt alta gelecek */
+  gap: 20px; /* Bloglar arasına boşluk ekle */
+}
+
+.related-blog-item {
+  position: relative;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  opacity: 0.8;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  background-color: transparent;
+}
+
+.related-blog-item:hover {
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+.related-blog-img-container {
+  position: relative;
+  aspect-ratio: 4 / 3; /* İhtiyacınıza göre oranı ayarlayın */
+}
+
+.related-blog-item .overlay {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6); /* Hafif şeffaf arka plan */
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+  box-sizing: border-box;
+  opacity: 1; /* Her zaman görünür */
+  transition: background 0.2s ease;
+
+  display: flex;
+  align-items: flex-end; /* İçeriği en alta hizala */
+  justify-content: center; /* Yatay ortalama */
+  min-height: 20px; /* Minimum yükseklik */
+  padding-bottom: 20px; /* Biraz yukarı çek */
+}
+
+.related-blog-item:hover .overlay {
+  background: rgba(0, 0, 0, 0.8); /* Üzerine gelince daha koyu olsun */
+}
+
+.related-blog-item h2 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .related-blogs-container {
+    grid-template-columns: 1fr 1fr 1fr; /* 2 kolonlu grid */
+  }
+}
+
+/* Responsive Düzenlemeler */
+@media (max-width: 992px) {
+  .related-blogs-wrapper {
+    margin: 20px auto 0; /* Yatayda ortalar */
+    max-height: 300vh;
+  }
+  .related-blogs-container {
+    grid-template-columns: 1fr 1fr; /* 2 kolonlu grid */
+  }
+  .blog-image-container {
+    height: 400px; /* Varsayılan yükseklik */
+  }
+  .blog-main-content {
+    margin-right: 0px; /* Sağ tarafa 20px margin ekler */
+  }
+  .blog-title {
+    font-size: 1.3rem;
+  }
+  .subtitle {
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+  }
+  .description {
+    font-size: 1rem;
+  }
+  .main-description {
+    font-size: 1rem;
+  }
+  .related-blog-item h4 {
+    font-size: 0.9rem;
+  }
+  .related-blogs-wrapper h3 {
+    font-size: 1.5rem;
+  }
+  .description h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  .description table {
+    font-size: 1rem;
+  }
+
+  .description table th,
+  .description table td {
+    padding: 8px; /* Mobilde fazla boşluk olmasın */
+  }
+}
+
+@media (max-width: 768px) {
+  .blog-image-container {
+    height: 350px;
+  }
+}
+
+@media (max-width: 500px) {
+  .related-blogs-container {
+    grid-template-columns: 1fr; /* 1 kolonlu grid */
+  }
+  .blog-image-container {
+    height: 300px;
+  }
+}

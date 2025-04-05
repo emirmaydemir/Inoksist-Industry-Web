@@ -1,0 +1,44 @@
+{
+  "faq": [
+    {
+      "question": "İnoksist Endüstri kimdir?",
+      "answer": "2013 yılında temelleri atılan İnoksist Endüstri, geçmişten gelen bilgi birikimi ve ürün tecrübesi ile bağlantı elemanları ve endüstriyel ürünler alanında kısa sürede sektörde kendisine önemli bir yer edinmiştir."
+    },
+    {
+      "question": "İnoksist Endüstrinin sunduğu hizmetler nelerdir?",
+      "answer": "İnoksist Endüstri, yüksek kalite standartlarına sahip geniş ürün yelpazesi ile bağlantı elemanları, hırdavat, bakım kimyasalları ve modüler su depoları gibi çeşitli endüstriyel ürünler sunmaktadır."
+    },
+    {
+      "question": "İnoksist Endüstri Paslanmaz Civata Paslanmaz Somun ürünlerinin fiyatları nedir?",
+      "answer": "Bağlantı elemanları, hırdavat, bakım kimyasalları ve modüler su depolarının güncel fiyatları hakkında bilgi almak için bizimle iletişime geçin."
+    },
+    {
+      "question": "İnoksist Endüstri hangi bağlantı elemanlarının imalatını yapmaktadır veya tedarik etmektedir?",
+      "answer": "İnoksist Endüstri olarak paslanmaz civata, paslanmaz somun, paslanmaz pul, rondela, vida, pim ve perçin gibi bağlantı elemanlarının imalatını yapmakta veya tedarik etmekteyiz. Ürünlerimiz yüksek kalite standartlarına sahiptir ve endüstriyel kullanıma uygundur."
+    },
+    {
+      "question": "İnoksist Endüstri’nin en popüler ürünleri hangileridir?",
+      "answer": "En popüler ürünlerimiz arasında DIN 912 İmbus, DIN 934 Altı Köşe Somun, DIN 125 Düz Rondela ve DIN 933 Altı Köşe Başlı Tam Paso Civata bulunmaktadır."
+    },
+    {
+      "question": "Paslanmaz civata nedir ve neden tercih edilmelidir?",
+      "answer": "Paslanmaz civata, korozyona karşı yüksek direnç gösteren ve uzun ömürlü bağlantı elemanlarıdır. Dayanıklılığı, estetik görünümü ve paslanmaya karşı koruyucu yapısı nedeniyle endüstriyel ve bireysel kullanımlarda tercih edilir."
+    },
+    {
+      "question": "Bağlantı elemanlarında DIN ve ISO standartları neden önemlidir?",
+      "answer": "DIN ve ISO standartları, bağlantı elemanlarının ölçü, dayanıklılık ve malzeme kalitesi açısından belirli kriterleri karşılamasını sağlar. Bu standartlar, uluslararası kabul gören kalite ve güvenliği garanti eder."
+    },
+    {
+      "question": "Bağlantı elemanları satın alırken nelere dikkat etmeliyim?",
+      "answer": "Bağlantı elemanları alırken, kullanım amacına uygun malzeme seçimi, doğru ölçüler, korozyon dayanımı ve sertifikalı ürünler olmasına dikkat edilmelidir. Ayrıca tedarikçinin güvenilirliği ve stok durumu da göz önünde bulundurulmalıdır."
+    }
+  ],
+  "priceList": {
+    "faqTitle": "Sıkça Sorulan Sorular",
+    "title": "Fiyat Listeleri",
+    "description": "Güncel Fiyat için lütfen",
+    "description2": "geçiniz.",
+    "strongDescription": "İLETİŞİME",
+    "buttonText": "İletişime Geç"
+  }
+}

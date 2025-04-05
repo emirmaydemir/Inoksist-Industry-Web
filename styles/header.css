@@ -1,0 +1,463 @@
+/* ExchangeRate.css */
+.exchange-rate-container {
+  background-color: #ffffff;
+  color: #273286;
+  border-radius: 5px; /* Kenarların yuvarlatılması */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Hafif gölge efekti */
+  display: flex; /* Flexbox kullanarak içerikleri hizalamak için */
+  align-items: center; /* Dikey ortalama */
+  justify-content: center; /* Yatay ortalama */
+  min-width: 90px; /* Minimum genişlik */
+  max-width: 100%; /* Maksimum genişliği ekranın boyutuna göre ayarlayın */
+  cursor: pointer;
+}
+
+.mobile-logo {
+  display: none; /* Logo yalnızca mobilde görünür */
+}
+
+.header__top {
+  padding: 10px 0px;
+  background: #273286;
+  color: #fff;
+}
+
+.header__top__left {
+  display: flex;
+  align-items: center;
+  column-gap: 1.5rem;
+}
+
+.header__top__left a {
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.header__top__help {
+  display: flex;
+  align-items: center;
+  column-gap: 0.4rem;
+}
+
+.header__top .header__top__help {
+  font-size: 0.8rem; /* Yazı boyutunu ayarlayın */
+}
+
+.header__top__help i {
+  background: #fff;
+  color: #000d6b;
+  padding: 2px 4px;
+  border-radius: 50px;
+  font-size: 0.7rem;
+  margin-bottom: 0.1rem;
+}
+
+.header__top__right a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.header__top__right a:hover {
+  color: #fffc5a;
+}
+
+.flag-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.flag-btn2 {
+  display: none;
+}
+
+.flag-icon {
+  width: 30px;
+  height: 20px;
+  object-fit: cover;
+}
+
+.search-results {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 255); /* Daha şeffaf arkaplan */
+  border: 1px solid #ccc;
+  width: 16%;
+  max-height: 300px;
+  overflow-y: auto;
+  z-index: 100;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); /* Modern gölge efekti */
+  border-radius: 5px; /* Köşeleri yuvarla */
+}
+
+.search-result-card {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  text-decoration: none;
+  color: black;
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Animasyonlar */
+}
+
+.search-result-card:hover {
+  background-color: rgba(0, 0, 0, 0.05); /* Hover'da şeffaf gri arkaplan */
+  transform: translateY(-2px); /* Hover'da hafif yukarı çıkma efekti */
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Hover'da ekstra gölge */
+}
+
+.search-result-card:active {
+  background-color: rgba(0, 0, 0, 0.1); /* Tıklanırken koyu gri arkaplan */
+  transform: scale(0.98); /* Hafif küçülme efekti tıklanınca */
+}
+
+.search-result-card img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 8px; /* Köşeleri hafif yuvarla */
+}
+
+@media only screen and (max-width: 1500px) {
+  .search-results {
+    width: 19%;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1023px) {
+  .search-results {
+    width: 25%;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .search-results {
+    width: 37%;
+  }
+}
+@media only screen and (min-width: 500px) and (max-width: 638px) {
+  .search-results {
+    width: 45%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .search-results {
+    width: 47%;
+  }
+  .search__box {
+    font-size: 0.9rem;
+    margin-left: 0.9rem;
+  }
+}
+@media only screen and (max-width: 459px) {
+  .search-results {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 430px) {
+  .search-results {
+    width: 54%;
+  }
+  .search__box {
+    font-size: 0.8rem;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .search-results {
+    width: 57%;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .search-results {
+    width: 55%;
+  }
+  .search__box {
+    font-size: 0.7rem;
+  }
+}
+@media only screen and (max-width: 358px) {
+  .search-results {
+    width: 53%;
+  }
+  .search__box {
+    font-size: 0.7rem;
+    padding: 0.5rem !important;
+  }
+  .search__box span {
+    font-size: 0.7rem;
+  }
+}
+@media only screen and (max-width: 338px) {
+  .search-results {
+    width: 50%;
+  }
+  .search__box {
+    font-size: 0.6rem;
+    padding: 0.5rem !important;
+  }
+  .search__box span {
+    font-size: 0.7rem;
+  }
+}
+@media only screen and (max-width: 319px) {
+  .search-results {
+    width: 47%;
+  }
+  .search__box {
+    font-size: 0.5rem;
+    padding: 0.5rem !important;
+  }
+  .search__box span {
+    font-size: 0.7rem;
+  }
+}
+@media only screen and (max-width: 297px) {
+  .nav__right {
+    display: none !important;
+  }
+}
+/* ================ main navbar styles =========== */
+
+.nav__item-container {
+  position: relative;
+  text-decoration: none;
+}
+
+/* Alt menü başlangıçta gizli */
+.sub__menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #273286;
+  display: none; /* Başlangıçta gizlenmiş */
+  padding: 12px 0; /* Alt menü paddingi genişletildi */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Alt menüye gölge efekti */
+  min-width: 120%; /* Alt menünün genişliği artırıldı */
+  z-index: 1100; /* Alt menünün de üstte görünmesini sağlıyoruz */
+}
+
+/* Alt menü öğeleri */
+.sub__menu-item {
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 0.9rem;
+  text-decoration: none;
+  display: block;
+  white-space: nowrap; /* Uzun metinler için kayma engeli */
+}
+
+.sub__menu-item:hover {
+  background: #f9a826;
+  color: #fff;
+}
+
+/* Ana menü öğesi üzerine gelindiğinde alt menünün görünmesi */
+.nav__item-container:hover .sub__menu {
+  display: block;
+}
+
+/* Transition efektleri */
+.nav__item-container:hover .sub__menu-item {
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.main__navbar {
+  padding: 15px 0px;
+  background: #273286;
+}
+
+.mobile__menu i {
+  color: #fff;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.mobile__menu {
+  display: none;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  column-gap: 2.2rem;
+}
+
+/*Navbar*/
+.nav__item {
+  font-size: 0.9rem;
+  color: #fff !important;
+  text-decoration: none;
+  transition: 0.3s;
+  color: inherit;
+  margin: 0 3px;
+}
+
+/* Eğer `Link` bileşeni doğrudan `<a>` ile çalışıyorsa */
+.nav__item a {
+  text-decoration: none; /* Alt çizgi tamamen kaldırılır */
+  color: inherit;
+}
+
+.nav__item:hover {
+  color: #f9a826 !important;
+}
+/*Navbar*/
+.search__box {
+  border: 1px solid #7c8a972f;
+  padding: 5px 18px;
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+  background: #020a4de9;
+}
+
+.search__box input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.search__box input::placeholder {
+  font-size: 0.8rem;
+}
+
+.search__box span i {
+  color: rgba(255, 255, 255, 0.555);
+  cursor: pointer;
+}
+
+.nav__item.active {
+  color: #f9a826 !important;
+}
+
+.nav__right {
+  margin-left: auto;
+  /* Sağda kalmasını sağlar */
+}
+
+@media only screen and (max-width: 1024px) {
+  .main__navbar .navigation__wrapper {
+    display: flex;
+    justify-content: center; /* Ortalar */
+    align-items: center;
+  }
+  .mobile-logo {
+    display: block !important;
+    margin: 0 0.5rem; /* Ortalamaya yardımcı olur */
+    width: 100px;
+  }
+  .mobile__menu {
+    display: block;
+  }
+  .sub__menu {
+    background: #fff;
+  }
+  .header__top,
+  .header__middle {
+    display: none;
+  }
+  .flag-btn2 {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex; /* Bayrağı esnek kutu olarak göster */
+    justify-content: center; /* Ortala */
+    margin: 1rem 0; /* Üst ve alt boşluk ekle */
+  }
+
+  .navigation {
+    background: rgb(0, 13, 107, 0.6);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    display: none;
+  }
+
+  .menu {
+    width: 250px;
+    height: 100%;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 2rem;
+    justify-content: center;
+  }
+
+  .menu a {
+    color: #000d6b !important;
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+
+  .menu__active {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+  .nav__item {
+    font-size: 0.7rem;
+    /* Bu aralık için font boyutu */
+    margin: 0 2px;
+  }
+
+  .menu {
+    display: flex;
+    align-items: center;
+    column-gap: 1.2rem;
+  }
+
+  .search__box {
+    font-size: 0.8rem;
+    padding: 5px 12px;
+  }
+
+  .search__box input {
+    font-size: 0.7rem;
+    /* Font boyutunu küçült */
+    padding: 0;
+    /* İç paddingi sıfırla */
+  }
+
+  .sub__menu-item {
+    font-size: 0.7rem;
+  }
+
+  .header__top__left a {
+    font-size: 0.7rem;
+  }
+
+  .header__top .header__top__help {
+    font-size: 0.7rem; /* Yazı boyutunu ayarlayın */
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+  .search__box {
+    padding: 5px 12px;
+    font-size: 0.9rem;
+  }
+
+  .nav__item {
+    font-size: 0.8rem;
+    /* Bu aralık için font boyutu */
+    margin: 0;
+  }
+
+  .sub__menu-item {
+    font-size: 0.8rem;
+  }
+
+  .header__top__left a {
+    font-size: 0.7rem;
+  }
+
+  .header__top .header__top__help {
+    font-size: 0.7rem; /* Yazı boyutunu ayarlayın */
+  }
+}

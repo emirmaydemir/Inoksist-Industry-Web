@@ -1,0 +1,24 @@
+{
+  "testimonials": [
+    {
+      "id": 1,
+      "title": "DIN 933 Hexagon Head Full Thread Bolt",
+      "description": "High-strength hexagon head bolt with full thread for secure fastening."
+    },
+    {
+      "id": 2,
+      "title": "DIN 912 Socket Head Cap Screw",
+      "description": "Hexagon socket screw; provides high strength and secure connections."
+    },
+    {
+      "id": 3,
+      "title": "DIN 1587 Blind Nut",
+      "description": "Blind nut to protect exposed threads and ensure a safe, clean finish."
+    },
+    {
+      "id": 4,
+      "title": "DIN 6796 Cup Washer",
+      "description": "Conical-shaped spring washer providing high load distribution, prevents loosening in vibrating environments."
+    }
+  ]
+}

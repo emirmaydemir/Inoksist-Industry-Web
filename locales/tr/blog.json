@@ -1,0 +1,81 @@
+{
+  "blog": [
+    {
+      "id": 1,
+      "name": "Civata Çeşitleri ve Kullanım Alanları",
+      "url": "civata-nedir",
+      "imgUrl": "https://res.cloudinary.com/di9qvtepw/image/upload/q_auto,f_webp/v1728246091/slider-6_fwhez8.jpg",
+      "description": "Farklı civata çeşitleri, teknik özellikleri, malzeme yapıları ve dayanıklılık seviyeleri hakkında detaylı bilgi edinin. Endüstriyel montajlardan yapı sektörüne kadar geniş kullanım alanlarına sahip civatalar ile güvenli ve uzun ömürlü bağlantılar oluşturun. Paslanmaz civatalar, çelik civatalar, yüksek mukavemetli civatalar ve özel kaplamalı civatalar gibi pek çok seçenek arasından ihtiyacınıza en uygun bağlantı elemanını seçerek montaj güvenliğinizi artırabilirsiniz. Doğru civata seçimi, projelerinizin dayanıklılığını artırırken, vidalı bağlantılarınızın uzun süre sağlam kalmasını sağlar.",
+      "date": "09.03.2025"
+    },
+
+    {
+      "id": 2,
+      "name": "Akıllı Vida Nedir?",
+      "url": "akilli-vida",
+      "imgUrl": "https://res.cloudinary.com/di9qvtepw/image/upload/q_auto,f_webp/v1/all-images/Blog/tdwzplv82kxgo9hc4pfi",
+      "description": "Akıllı vidalar, kendinden delme özellikleri, güçlü kavrama yapısı ve pratik montaj avantajlarıyla bağlantı teknolojisinde devrim yaratıyor. Zaman kazandıran ve yüksek mukavemet sağlayan bu özel vidaların kullanım alanlarını ve avantajlarını keşfedin. Akıllı vida sistemleri, montaj sürecini hızlandırırken, delik açma ihtiyacını ortadan kaldırarak iş gücünden tasarruf sağlar. Özellikle çelik, ahşap ve beton gibi farklı malzemelerde yüksek performans sunar. Yüksek tork dayanımı sayesinde daha güvenilir bağlantılar oluşturmanızı sağlar ve montaj sürecini kolaylaştırır.",
+      "date": "02.03.2025"
+    },
+
+    {
+      "id": 3,
+      "name": "Paslanmaz Civata ve Somun",
+      "url": "paslanmaz-civata-somun",
+      "imgUrl": "https://res.cloudinary.com/di9qvtepw/image/upload/q_auto,f_webp/v1/all-images/Blog/nfvlugh0lzdab17ubktj",
+      "description": "Paslanmaz civata ve somunlar (bir diğer adıyla inox civata, krom civata, inox somun, krom somun), korozyona dayanıklı yapısı ve uzun ömürlü bağlantılarıyla ön plana çıkıyor. Dayanıklı malzeme seçenekleriyle zorlu şartlara karşı maksimum direnç sağlayın. Paslanmaz civatalar, suya, neme ve kimyasal maddelere karşı üstün koruma sunarak paslanmayı önler. İnşaat, otomotiv, denizcilik, makine ve gıda sanayi gibi birçok sektörde güvenle kullanılır. Paslanmaz somunlar, yüksek sıcaklık ve ağır yük altındaki bağlantılarda uzun ömürlü bir dayanıklılık sağlar. Doğru malzeme seçimiyle projelerinizde sağlam ve güvenilir bağlantılar oluşturabilirsiniz.",
+      "date": "24.02.2025"
+    },
+
+    {
+      "id": 4,
+      "name": "İmbus Civatası Nedir?",
+      "url": "imbus-civata-nedir",
+      "imgUrl": "https://res.cloudinary.com/di9qvtepw/image/upload/q_auto,f_webp/v1/all-images/Blog/hl1p85ibmkemw6b7rkeu",
+      "description": "İmbus civatalarının altıgen yuvalı başlık yapısı, yüksek tork dayanımı ve sıkı bağlantı sağlamadaki üstün özelliklerini inceleyin. Endüstriyel makinelerden otomotiv sektörüne kadar geniş kullanım alanlarına sahip bu civataların avantajlarını öğrenin. İmbus civatalar, yüksek tork gerektiren montaj işlemlerinde tercih edilir ve sıkı bağlantılar sağlar. Endüstride yaygın olarak kullanılan bu civatalar, paslanmaz çelik ve alaşımlı çelik seçenekleriyle farklı zorluk seviyelerindeki montaj ihtiyaçlarını karşılar. Sağlam yapısı sayesinde uzun ömürlü ve güvenilir bağlantılar oluşturur.",
+      "date": "17.01.2025"
+    },
+
+    {
+      "id": 5,
+      "name": "Vida Çeşitleri ve Kullanım Alanları",
+      "url": "vida-cesitleri",
+      "imgUrl": "https://res.cloudinary.com/di9qvtepw/image/upload/q_auto,f_webp/v1/all-images/Blog/n0nhbdeq5la9m2owyktg",
+      "description": "Vida çeşitleri arasında trifon vida, akıllı vida, çelik vida, paslanmaz vida ve daha birçok farklı seçenek bulunur. Teknik özelliklerini öğrenin ve ihtiyacınıza en uygun vidaları seçerek sağlam ve dayanıklı bağlantılar oluşturun. Trifon vidalar ahşap ve metal yüzeylerde güçlü tutuş sağlarken, paslanmaz vidalar korozyona karşı üstün direnç gösterir. Akıllı vidalar ise montaj kolaylığı sunarak zaman kazandırır. Kullanacağınız vida türünü doğru belirlemek, bağlantılarınızın uzun ömürlü ve güvenli olmasını sağlar. Endüstriyel uygulamalardan ev kullanımlarına kadar farklı vida türlerini keşfedin.",
+      "date": "20.12.2024"
+    },
+
+    {
+      "id": 6,
+      "name": "İTÜ Lagari Thrust Roket Takımı’na Malzeme Sponsoru Olduk!",
+      "url": "ituroket-sponsorluk",
+      "imgUrl": "https://res.cloudinary.com/di9qvtepw/image/upload/q_auto,f_webp/v1/all-images/Blog/lpjcc2dfe1smzomnm4qj",
+      "description": "İTÜ Lagari Thrust Roket Takımı’na malzeme sponsoru olarak havacılık ve uzay teknolojilerinin gelişimine destek sağlıyoruz. Geleceğin mühendislerini teşvik ederek Türkiye’nin bilimsel ve teknolojik ilerlemesine katkıda bulunmaktan gurur duyuyoruz. Roket teknolojilerinde kullanılan bağlantı elemanlarının dayanıklılığı ve güvenliği büyük önem taşır. Sponsorluk desteğimizle, roket tasarımlarında kullanılan paslanmaz civatalar, yüksek mukavemetli somunlar ve özel kaplamalı bağlantı elemanlarının performansını artırarak projelerin daha güvenli hale gelmesine katkı sunuyoruz.",
+      "date": "15.09.2024"
+    },
+
+    {
+      "id": 7,
+      "name": "Karşıyaka Kafkaf Masters Forma Sponsoru Olduk!",
+      "url": "kafkaf-sponsorluk",
+      "imgUrl": "https://res.cloudinary.com/di9qvtepw/image/upload/q_auto,f_webp/v1/all-images/Blog/mcoqbhe3blqdwrhacdrf",
+      "description": "Karşıyaka Kafkaf Masters’a forma sponsoru olarak spora, takım ruhuna ve dayanışmaya verdiğimiz önemi bir kez daha gösteriyoruz. Başarı yolculuklarında onların yanında olmaktan büyük mutluluk duyuyoruz. Dayanıklılık ve sağlamlık, yalnızca bağlantı elemanları için değil, sporun kendisi için de büyük önem taşır. Sponsorluk çalışmalarımızla hem spor camiasına destek oluyor hem de kaliteli üretim anlayışımızı spor dünyasına yansıtıyoruz. Güçlü bir takımın temeli, doğru ekipmanlar ve sağlam bir dayanışma ile mümkündür.",
+      "date": "23.04.2024"
+    },
+
+    {
+      "id": 8,
+      "name": "Bağlantı Elemanlarında Normlar ve Standartlar",
+      "url": "norm-civata",
+      "imgUrl": "https://res.cloudinary.com/di9qvtepw/image/upload/q_auto,f_webp/slider-1_hpjoda",
+      "description": "Bağlantı elemanlarında kullanılan DIN, ISO, IST, HSS ve ART gibi ulusal ve uluslararası normlar, civata, somun, rondela, vida, pim ve perçinlerin üretiminde kalite ve güvenliği garanti altına alır. Bu standartlar, bağlantı elemanlarının ölçü, malzeme yapısı, diş tipi ve mekanik dayanıklılık gibi kritik özelliklerini belirleyerek, farklı sektörlerde güvenilir ve uzun ömürlü kullanım sağlar. Endüstriyel üretimden inşaat projelerine kadar geniş bir alanda tercih edilen bu normlar, parçalar arasında tam uyumluluk sunarak montaj süreçlerini kolaylaştırır ve iş güvenliğini artırır.",
+      "date": "20.02.2024"
+    }
+  ],
+  "header": {
+    "blog": "İnoksist Blog",
+    "relatedTitle": "Diğer Bloglar",
+    "title": "Güncel",
+    "subtitle": "Blog Yazılarımız"
+  }
+}

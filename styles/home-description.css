@@ -1,0 +1,116 @@
+.home-feature-section {
+  position: relative; /* Pozisyonu ayarlıyoruz */
+  background-image: url("https://res.cloudinary.com/di9qvtepw/image/upload/q_auto,f_webp/v1/all-images/App-images/inox-civata"); /* Arka plan görseli */
+  background-size: cover; /* Görseli kapla */
+  background-position: center; /* Ortala */
+  padding: 4rem 2rem; /* Yanlarda boşluk bırakmak için */
+  width: 100%;
+}
+
+.home-feature-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7); /* Hafif karartma */
+  z-index: 1; /* Metnin üstünde olmasını sağla */
+}
+
+.feature-content {
+  position: relative; /* İçerik pozisyonunu ayarlıyoruz */
+  z-index: 2; /* Arka planın üstünde görünmesi için */
+  text-align: center; /* Metni ortala */
+}
+
+.custom-title {
+  color: #ffffff; /* Başlık rengi beyaz */
+  font-size: 2rem; /* İstediğiniz font boyutunu ayarlayın */
+  font-weight: 600; /* İstediğiniz font kalınlığını ayarlayın */
+  margin-bottom: 2rem; /* Alt boşluk */
+  text-align: center; /* Ortala */
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+  width: 100%;
+  justify-content: center;
+}
+
+.section-block {
+  background: rgba(255, 255, 255, 0.5); /* Beyaz arka plan, %50 opasite ile */
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.section-block:hover {
+  transform: translateX(10px);
+  box-shadow: -5px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.section-block h2 {
+  color: #000d6b;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.section-block a {
+  text-decoration: none;
+}
+
+.section-block a:hover h2 {
+  color: #007bff; /* Hover'da mavi renge geçiş */
+  transform: translateX(5px); /* Hafif sağa kayma efekti */
+}
+
+.section-block p {
+  color: #ffffff;
+  line-height: 1.8;
+  font-size: 1.1rem;
+  text-align: justify;
+}
+
+.section-block-desc {
+  color: #ffffff; /* İstediğiniz rengi buraya ekleyin */
+  line-height: 1.8;
+  font-size: 1.1rem;
+  text-align: justify;
+  margin-top: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .section-block h2 {
+    font-size: 1.2rem;
+  }
+  .section-block p {
+    font-size: 1rem;
+  }
+  .section-block-desc {
+    font-size: 1rem;
+  }
+  .custom-title {
+    font-size: 1.5rem; /* İstediğiniz font boyutunu ayarlayın */
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .section-block h2 {
+    font-size: 1rem;
+  }
+  .section-block p {
+    font-size: 0.9rem;
+  }
+  .section-block-desc {
+    font-size: 0.9rem;
+  }
+  .custom-title {
+    font-size: 1.3rem; /* İstediğiniz font boyutunu ayarlayın */
+  }
+}

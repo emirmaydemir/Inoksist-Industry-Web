@@ -1,0 +1,81 @@
+{
+  "blog": [
+    {
+      "id": 1,
+      "name": "Types of Bolts and Their Applications",
+      "url": "civata-nedir",
+      "imgUrl": "https://res.cloudinary.com/di9qvtepw/image/upload/q_auto,f_webp/v1728246091/slider-6_fwhez8.jpg",
+      "description": "Learn in detail about different types of bolts, their technical specifications, material structures, and durability levels. From industrial assembly to the construction sector, bolts have a wide range of applications, ensuring secure and long-lasting connections. Choose the most suitable fastener for your needs among stainless steel bolts, steel bolts, high-strength bolts, and specially coated bolts to enhance installation safety. Selecting the right bolt increases the durability of your projects and ensures that your threaded connections remain intact for a long time.",
+      "date": "09.03.2025"
+    },
+
+    {
+      "id": 2,
+      "name": "What is a Smart Screw?",
+      "url": "akilli-vida",
+      "imgUrl": "https://res.cloudinary.com/di9qvtepw/image/upload/q_auto,f_webp/v1/all-images/Blog/tdwzplv82kxgo9hc4pfi",
+      "description": "Smart screws revolutionize fastening technology with their self-drilling capabilities, strong grip structure, and easy installation advantages. Discover the applications and benefits of these special screws, which save time and provide high strength. Smart screw systems speed up the assembly process while eliminating the need for pre-drilling, reducing labor costs. They offer high performance in various materials, including steel, wood, and concrete. Thanks to their high torque resistance, they allow for more reliable connections and simplify the installation process.",
+      "date": "02.03.2025"
+    },
+
+    {
+      "id": 3,
+      "name": "Stainless Steel Bolts and Nuts",
+      "url": "paslanmaz-civata-somun",
+      "imgUrl": "https://res.cloudinary.com/di9qvtepw/image/upload/q_auto,f_webp/v1/all-images/Blog/nfvlugh0lzdab17ubktj",
+      "description": "Stainless steel bolts and nuts (also known as inox bolts, chrome bolts, inox nuts, and chrome nuts) stand out with their corrosion resistance and long-lasting connections. Ensure maximum resistance against harsh conditions with durable material options. Stainless steel bolts provide superior protection against water, moisture, and chemicals, preventing rust. They are widely used in construction, automotive, maritime, machinery, and food industries. Stainless steel nuts offer long-lasting durability in high-temperature and heavy-load applications. By choosing the right material, you can create strong and reliable connections in your projects.",
+      "date": "24.02.2025"
+    },
+
+    {
+      "id": 4,
+      "name": "What is an Allen Bolt?",
+      "url": "imbus-civata-nedir",
+      "imgUrl": "https://res.cloudinary.com/di9qvtepw/image/upload/q_auto,f_webp/v1/all-images/Blog/hl1p85ibmkemw6b7rkeu",
+      "description": "Explore the superior features of Allen bolts, such as their hex socket head design, high torque resistance, and ability to create secure connections. Learn about the advantages of these bolts, widely used in industrial machinery and the automotive sector. Allen bolts are preferred for assembly processes requiring high torque and provide firm fastening. Commonly used in the industry, these bolts come in stainless steel and alloy steel options to meet the needs of different levels of installation complexity. Their robust structure ensures long-lasting and reliable connections.",
+      "date": "17.01.2025"
+    },
+
+    {
+      "id": 5,
+      "name": "Types of Screws and Their Applications",
+      "url": "vida-cesitleri",
+      "imgUrl": "https://res.cloudinary.com/di9qvtepw/image/upload/q_auto,f_webp/v1/all-images/Blog/n0nhbdeq5la9m2owyktg",
+      "description": "There are various types of screws, including self-tapping screws, smart screws, steel screws, stainless steel screws, and more. Learn about their technical features and choose the most suitable screws for your needs to create strong and durable connections. Self-tapping screws provide excellent grip on wood and metal surfaces, while stainless steel screws offer superior resistance to corrosion. Smart screws simplify the installation process, saving time. Choosing the right type of screw ensures long-lasting and secure connections. Explore different screw types for industrial and household applications.",
+      "date": "20.12.2024"
+    },
+
+    {
+      "id": 6,
+      "name": "We Became a Material Sponsor for ITU Lagari Thrust Rocket Team!",
+      "url": "ituroket-sponsorluk",
+      "imgUrl": "https://res.cloudinary.com/di9qvtepw/image/upload/q_auto,f_webp/v1/all-images/Blog/lpjcc2dfe1smzomnm4qj",
+      "description": "As a material sponsor for the ITU Lagari Thrust Rocket Team, we support the development of aerospace technology. We take pride in encouraging future engineers and contributing to Turkey’s scientific and technological advancement. The durability and safety of fasteners used in rocket technologies are of great importance. Through our sponsorship, we help enhance the performance of stainless steel bolts, high-strength nuts, and specially coated fasteners used in rocket designs, making projects safer.",
+      "date": "15.09.2024"
+    },
+
+    {
+      "id": 7,
+      "name": "We Became a Jersey Sponsor for Karşıyaka Kafkaf Masters!",
+      "url": "kafkaf-sponsorluk",
+      "imgUrl": "https://res.cloudinary.com/di9qvtepw/image/upload/q_auto,f_webp/v1/all-images/Blog/mcoqbhe3blqdwrhacdrf",
+      "description": "By sponsoring the jerseys of Karşıyaka Kafkaf Masters, we once again emphasize our commitment to sports, team spirit, and solidarity. We are delighted to stand by them on their journey to success. Strength and durability are crucial not only for fasteners but also for sports. Through our sponsorship efforts, we support the sports community while also reflecting our quality production philosophy in the world of sports. The foundation of a strong team is built on the right equipment and solid unity.",
+      "date": "23.04.2024"
+    },
+
+    {
+      "id": 8,
+      "name": "Standards and Norms in Fasteners",
+      "url": "norm-civata",
+      "imgUrl": "https://res.cloudinary.com/di9qvtepw/image/upload/q_auto,f_webp/slider-1_hpjoda",
+      "description": "National and international standards such as DIN, ISO, IST, HSS, and ART ensure the quality and safety of fasteners, including bolts, nuts, washers, screws, pins, and rivets. These standards define critical characteristics like dimensions, material composition, thread type, and mechanical strength, making fasteners reliable and durable across various industries. Widely used in industrial manufacturing and construction projects, these norms provide full compatibility between components, simplify assembly processes, and enhance workplace safety.",
+      "date": "20.02.2024"
+    }
+  ],
+  "header": {
+    "blog": "İnoksist Blog",
+    "relatedTitle": "Other Blogs",
+    "title": "Latest",
+    "subtitle": "Our Blog Posts"
+  }
+}

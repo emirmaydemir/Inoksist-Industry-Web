@@ -1,0 +1,83 @@
+{
+  "bakim-kimyasallari": [
+    {
+      "id": 1,
+      "name": "Mold Release Spray (With Silicone / Without Silicone)",
+      "url": "kalip-ayirici-sprey",
+      "imgUrl": "https://res.cloudinary.com/di9qvtepw/image/upload/v1726932479/1_qi56ao.jpg",
+      "category": ["bakim-kimyasallari"]
+    },
+
+    {
+      "id": 2,
+      "name": "Brake Pad Industrial Cleaner",
+      "url": "fren-balata-endustriyel-temizleyici",
+      "imgUrl": "https://res.cloudinary.com/di9qvtepw/image/upload/v1726932479/2_lvp8ms.jpg",
+      "category": ["bakim-kimyasallari"]
+    },
+
+    {
+      "id": 3,
+      "name": "Liquid Grease",
+      "url": "sivi-gres",
+      "imgUrl": "https://res.cloudinary.com/di9qvtepw/image/upload/v1726932479/3_vhbljl.jpg",
+      "category": ["bakim-kimyasallari"]
+    },
+
+    {
+      "id": 4,
+      "name": "Gas Welding Spray (Without Silicone)",
+      "url": "gazalti-kaynak-spreyi-silikonsuz",
+      "imgUrl": "https://res.cloudinary.com/di9qvtepw/image/upload/v1726932480/4_nfdvrl.jpg",
+      "category": ["bakim-kimyasallari"]
+    },
+
+    {
+      "id": 5,
+      "name": "Rust Remover",
+      "url": "pas-sokucu",
+      "imgUrl": "https://res.cloudinary.com/di9qvtepw/image/upload/v1726932481/5_b2vjxx.jpg",
+      "category": ["bakim-kimyasallari"]
+    },
+
+    {
+      "id": 6,
+      "name": "W 44 T® Multi Spray",
+      "url": "w-44-t-multi-sprey",
+      "imgUrl": "https://res.cloudinary.com/di9qvtepw/image/upload/v1726932481/6_p01cib.jpg",
+      "category": ["bakim-kimyasallari"]
+    },
+
+    {
+      "id": 7,
+      "name": "Aluminum Spray A-400 - Glossy",
+      "url": "aluminyum-sprey-a-400",
+      "imgUrl": "https://res.cloudinary.com/di9qvtepw/image/upload/v1726932483/8_xgtc5f.jpg",
+      "category": ["bakim-kimyasallari"]
+    },
+
+    {
+      "id": 8,
+      "name": "Stainless Steel Spray - Special Clear",
+      "url": "paslanmaz-celik-sprey",
+      "imgUrl": "https://res.cloudinary.com/di9qvtepw/image/upload/v1729429454/paslanmaz-celik-sprey_sia2qd.jpg",
+      "category": ["paslanmaz-spreyler"]
+    },
+
+    {
+      "id": 9,
+      "name": "Metal Fluid",
+      "url": "metal-fluid",
+      "imgUrl": "https://res.cloudinary.com/di9qvtepw/image/upload/v1729430272/metal-fluid_nmabtj.png",
+      "category": ["paslanmaz-spreyler"]
+    },
+
+    {
+      "id": 10,
+      "name": "Zinc Spray",
+      "url": "cinko-sprey",
+      "imgUrl": "https://res.cloudinary.com/di9qvtepw/image/upload/v1726932485/10_nngoyv.jpg",
+      "category": ["paslanmaz-spreyler"]
+    }
+  ]
+}

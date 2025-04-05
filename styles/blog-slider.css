@@ -1,0 +1,121 @@
+.blog-slider-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.blog-slider-wrapper {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.blog-slider-slide {
+  flex: 0 0 50%; /* Her bir kart ekranın %50'sini kaplasın, yani 2 kart yan yana */
+  box-sizing: border-box;
+  padding: 13px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.blog-slider-card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  position: relative;
+  height: 450px; /* Kartın yüksekliğini sabitledik, karemsi dikdörtgen görünüm için */
+}
+
+.blog-slider-card:hover {
+  transform: scale(1.05);
+}
+
+.blog-slider-image-container {
+  position: relative;
+  width: 100%;
+  height: 320px;
+  margin-bottom: 10px;
+}
+
+.blog-slider-content {
+  padding: 10px 15px;
+}
+
+.blog-slider-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.blog-slider-date {
+  font-size: 14px;
+  color: gray;
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+}
+
+.blog-slider-arrow {
+  font-size: 20px;
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+  font-weight: bold;
+}
+
+/* Ok Butonları */
+.blog-slider-prev,
+.blog-slider-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px 15px;
+  font-size: 20px;
+  border-radius: 50%;
+}
+
+.blog-slider-prev {
+  left: 10px;
+}
+
+.blog-slider-next {
+  right: 10px;
+}
+
+.blog-slider-prev:hover,
+.blog-slider-next:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+/* Responsive: Mobilde tek kart gösterilsin */
+@media (max-width: 768px) {
+  .blog-slider-slide {
+    flex: 0 0 100%;
+  }
+
+  .blog-slider-card {
+    height: 400px; /* Kartın yüksekliğini sabitledik, karemsi dikdörtgen görünüm için */
+  }
+
+  .blog-slider-image-container {
+    height: 250px;
+  }
+
+  .blog-slider-content {
+    padding: 10px 15px;
+  }
+
+  .blog-slider-title {
+    font-size: 18px;
+  }
+
+  .blog-slider-date {
+    font-size: 13px;
+  }
+}

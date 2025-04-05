@@ -1,0 +1,41 @@
+.product__item {
+  border: 1px solid #7c8a9736;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Yumuşak geçiş */
+}
+
+.product__img-content h1 {
+  font-size: 1.3rem;
+  margin-top: 3rem;
+  overflow: hidden; /* Taşmayı engelle */
+  text-overflow: ellipsis; /* Taşan metin için üç nokta göster */
+  white-space: nowrap; /* Satır kaydırmayı engelle */
+}
+
+.product__img img {
+  transition: transform 0.3s ease; /* Resim geçişini yumuşatır */
+}
+
+.product__img:hover img {
+  transform: scale(1.1); /* Resmi %10 büyüt */
+}
+
+.image-container {
+  position: relative;
+  aspect-ratio: 4 / 3; /* İhtiyacınıza göre oranı ayarlayın */
+}
+
+@media only screen and (max-width: 991px) {
+  .section__title {
+    font-size: 1rem !important;
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .section__title {
+    font-size: 1.4rem !important;
+  }
+}

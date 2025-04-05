@@ -1,0 +1,35 @@
+{
+  "moduler-su-deposu": [
+    {
+      "id": 1,
+      "name": "Prizmatik Modüler Paslanmaz ve Galvaniz Su Depoları",
+      "url": "prizmatik-paslanmaz-ve-galvaniz-su-depolari",
+      "imgUrl": "https://res.cloudinary.com/di9qvtepw/image/upload/v1728851246/1_uaid8e.jpg",
+      "category": ["moduler-su-deposu"]
+    },
+
+    {
+      "id": 2,
+      "name": "Prizmatik Modüler GRP Su Depoları",
+      "url": "prizmatik-grp-su-depolari",
+      "imgUrl": "https://res.cloudinary.com/di9qvtepw/image/upload/v1728851245/2_vnbxcw.jpg",
+      "category": ["moduler-su-deposu"]
+    },
+
+    {
+      "id": 3,
+      "name": "Silindirik Kaynaklı Paslanmaz Su Depoları",
+      "url": "silindirik-kaynakli-paslanmaz-su-depolari",
+      "imgUrl": "https://res.cloudinary.com/di9qvtepw/image/upload/v1728851246/3_exv6va.jpg",
+      "category": ["moduler-su-deposu"]
+    },
+
+    {
+      "id": 4,
+      "name": "Prizmatik Modüler Özel Kaplamalı Su Depoları",
+      "url": "prizmatik-moduler-ozel-kaplamali-su-depolari",
+      "imgUrl": "https://res.cloudinary.com/di9qvtepw/image/upload/v1728851247/4_pt6gkj.jpg",
+      "category": ["moduler-su-deposu"]
+    }
+  ]
+}

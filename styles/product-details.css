@@ -1,0 +1,241 @@
+/*ÜST TARAF*/
+.main-image-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 400px;
+  border-radius: 10px;
+  cursor: zoom-in;
+  margin-bottom: 1rem;
+}
+
+.main-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  transition: transform 0.2s ease;
+}
+
+.thumbnail-container {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-bottom: 1.2rem;
+}
+
+.custom-thumbnail {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  object-position: center;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out, border 0.3s ease;
+  cursor: pointer;
+}
+
+.custom-thumbnail:hover {
+  transform: scale(1.1);
+  border: 2px solid #007bff;
+}
+
+.product__info2 {
+  padding-top: 20px;
+}
+
+.section__title2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  margin-top: 0.2rem;
+  font-weight: bold;
+}
+
+.section__description2 {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  text-align: justify;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+/*Teklif butonu*/
+.button-teklif-al {
+  width: 25%;
+  background-color: #273286;
+  color: #fff;
+  padding: 10px 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+.button-teklif-al:hover {
+  background-color: #126bca;
+}
+/*-------------------------------------*/
+
+/* Teknik Özellikler Başlığını Ortalamak ve Altına Çizgi Çekmek */
+.technical-features-title {
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.technical-features-line {
+  width: 100%; /* Çizginin genişliği */
+  border: 1px solid #000; /* Çizginin kalınlığı ve rengi */
+  margin: 0 auto; /* Ortalamak için */
+}
+
+/*TABLO*/
+
+.section-container2 {
+  padding: 15px; /* İçerik ile çizgi arasındaki boşluk */
+  background-color: #ffffff; /* Arka plan rengi */
+  margin-bottom: 20px; /* Kapsayıcılar arasındaki boşluk */
+}
+
+.section-container2 h2 {
+  font-size: 1.5rem;
+}
+
+.section-container2 h3 {
+  font-size: 1.2rem;
+}
+
+.section-container2 h4 {
+  font-size: 1rem;
+}
+
+.specification-table {
+  margin-top: 1px; /* Tablo ile önceki öğe arasındaki boşluk */
+  border-collapse: collapse; /* Hücre sınırlarının birleşmesini sağlar */
+  overflow-x: auto;
+}
+
+.table-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.product-details-container {
+  border: 3px solid #ddd; /* Kapsayıcının etrafında ince bir çizgi */
+  border-radius: 5px; /* Köşeleri yuvarlatmak için */
+  padding: 20px; /* İçerik ile çizgi arasındaki boşluk */
+  background-color: #ffffff; /* Arka plan rengi */
+  margin-top: 20px; /* Üstten boşluk */
+}
+
+/* Tablo başlıkları */
+.table thead th {
+  background-color: #003366; /* Koyu mavi arka plan rengi */
+  color: #fff; /* Beyaz yazı rengi */
+  padding: 10px; /* İçerik ile hücre sınırı arasındaki boşluk */
+  text-align: center; /* Yatay ortalama */
+  vertical-align: middle; /* Dikey ortalama */
+}
+
+/* Tablo hücreleri */
+.table td {
+  color: #000; /* Siyah yazı rengi */
+  padding: 8px; /* İçerik ile hücre sınırı arasındaki boşluk */
+  border: 1px solid #ddd; /* Hücre sınırları */
+  text-align: center; /* Yatay ortalama */
+  vertical-align: middle; /* Dikey ortalama */
+}
+
+/* Tablo başlıkları ve hücreleri için genel ayarlar */
+.table {
+  width: 100%;
+  border: 1px solid #ddd; /* Tablo sınırları */
+  border-radius: 5px; /* Köşeleri yuvarlatmak için */
+  background-color: #fff; /* Tablo arka plan rengi */
+  border-collapse: collapse;
+}
+
+.table tbody tr:nth-child(odd) {
+  background-color: rgb(53, 206, 253) !important; /* Mavi arka plan rengi */
+  color: rgb(0, 0, 0) !important; /* Beyaz yazı rengi */
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: rgb(255, 255, 255) !important; /* Beyaz arka plan rengi */
+  color: rgb(0, 0, 0) !important; /* Siyah yazı rengi */
+}
+
+@media only screen and (max-width: 576px) {
+  .main-image-container {
+    height: 300px !important;
+  }
+  .section__title2 {
+    font-size: 1.5rem;
+  }
+  .section__description2 {
+    font-size: 1rem;
+  }
+  .button-teklif-al {
+    font-size: 0.8rem !important;
+    width: 38%;
+  }
+  .technical-features-title {
+    font-size: 1.2rem;
+  }
+  .section-container2 h2,
+  .section-container2 h3,
+  .section-container2 h4 {
+    font-size: 0.9rem;
+  }
+  .table thead th {
+    font-size: 0.7rem; /* Mobilde başlık font boyutu */
+  }
+  .table tbody td {
+    font-size: 0.6rem; /* Mobilde hücre font boyutu */
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .main-image-container {
+    height: 350px;
+  }
+
+  .product__info2 {
+    padding: 25px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 2.5rem 0 1.5rem 0;
+    background-color: #f9f9f9;
+  }
+
+  .section__title2 {
+    font-size: 1.5rem;
+  }
+  .section__description2 {
+    font-size: 1rem;
+    line-height: 1.8;
+    max-height: none;
+    overflow-y: visible;
+  }
+  .button-teklif-al {
+    font-size: 0.9rem;
+  }
+  .technical-features-title {
+    font-size: 1.3rem;
+  }
+  .section-container2 h2,
+  .section-container2 h3,
+  .section-container2 h4 {
+    font-size: 1rem;
+  }
+  .table thead th {
+    font-size: 0.8rem; /* Mobilde başlık font boyutu */
+  }
+  .table tbody td {
+    font-size: 0.8rem; /* Mobilde hücre font boyutu */
+  }
+}

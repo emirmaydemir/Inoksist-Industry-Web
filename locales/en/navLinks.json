@@ -1,0 +1,69 @@
+{
+  "navLinks": [
+    {
+      "path": "/",
+      "display": "Home"
+    },
+    {
+      "path": "/hakkimizda",
+      "display": "About Us"
+    },
+    {
+      "path": "/baglanti-elemanlari/urunler",
+      "display": "Fasteners",
+      "subMenu": [
+        { "path": "/baglanti-elemanlari/paslanmaz-baglanti-elemanlari", "display": "Stainless Steel Fasteners" },
+        { "path": "/baglanti-elemanlari/celik-baglanti-elemanlari", "display": "Steel Fasteners" },
+        { "path": "/baglanti-elemanlari/demir-baglanti-elemanlari", "display": "Iron Fasteners" },
+        { "path": "/baglanti-elemanlari/pirinc-baglanti-elemanlari", "display": "Brass Fasteners" },
+        { "path": "/baglanti-elemanlari/titanyum-baglanti-elemanlari", "display": "Titanium Fasteners" },
+        { "path": "/baglanti-elemanlari/ozel-uretim-baglanti-elemanlari", "display": "Custom Manufactured Fasteners" },
+        { "path": "/baglanti-elemanlari/10-9-ve-12-9-baglanti-elemanlari", "display": "10.9 and 12.9 Fasteners" },
+        { "path": "/baglanti-elemanlari/kama-baglanti-elemanlari", "display": "Wedge Fasteners" }
+      ]
+    },
+    {
+      "path": "/hirdavat/urunler",
+      "display": "Hardware",
+      "subMenu": [
+        {
+          "path": "/hirdavat/delme-kesme-yaglari-grubu",
+          "display": "Drilling and Cutting Oils Group"
+        },
+        { "path": "/hirdavat/is-guvenligi-grubu", "display": "Safety Equipment Group" },
+        { "path": "/hirdavat/kaynak-ekipmanlari-grubu", "display": "Welding Equipment Group" },
+        { "path": "/hirdavat/kesici-ve-asindirici-grubu", "display": "Cutting and Abrasives Group" },
+        { "path": "/hirdavat/ambalaj-ve-paketleme-grubu", "display": "Packaging and Wrapping Group" },
+        { "path": "/hirdavat/silikon-ve-sizdirmazlik-grubu", "display": "Silicone and Sealing Group" },
+        { "path": "/hirdavat/sprey-boya", "display": "Spray Paint" },
+        { "path": "/hirdavat/yapistirici-grubu", "display": "Adhesives Group" },
+        { "path": "/hirdavat/el-aletleri", "display": "Hand Tools" },
+        { "path": "/hirdavat/profesyonel-el-aletleri", "display": "Professional Hand Tools" }
+      ]
+    },
+    {
+      "path": "/bakim-kimyasallari/urunler",
+      "display": "Maintenance Chemicals",
+      "subMenu": [
+        { "path": "/bakim-kimyasallari/bakim-kimyasallari", "display": "Maintenance Chemicals" },
+        { "path": "/bakim-kimyasallari/paslanmaz-spreyler", "display": "Stainless Sprays" }
+      ]
+    },
+    {
+      "path": "/moduler-su-deposu/urunler",
+      "display": "Modular Water Tanks",
+      "subMenu": [{ "path": "/moduler-su-deposu/moduler-su-deposu", "display": "Modular Water Tanks" }]
+    },
+    {
+      "path": "/fiyat-listeleri",
+      "display": "Price Lists"
+    },
+    {
+      "path": "/iletisim",
+      "display": "Contact"
+    }
+  ],
+  "search": {
+    "display": "Search"
+  }
+}

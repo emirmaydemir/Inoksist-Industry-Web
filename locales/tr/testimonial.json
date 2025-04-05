@@ -1,0 +1,24 @@
+{
+  "testimonials": [
+    {
+      "id": 1,
+      "title": "DIN 933 Altı Köşe Başlı Tam Paso Civata",
+      "description": "Yüksek dayanıklılığa sahip altı köşe başlı civata. Tam paso diş yapısı ile sıkı bağlantılar sağlar."
+    },
+    {
+      "id": 2,
+      "title": "DIN 912 İmbus",
+      "description": "İçi altıgen şekilli civata; yüksek mukavemet sunarak güvenli bağlantılar sağlar."
+    },
+    {
+      "id": 3,
+      "title": "DIN 934 Altı Köşe Somun",
+      "description": "Altıgen şekilli, yüksek dayanıklılığa sahip somun, vidaların güvenli bağlantısını sağlarken, kolay montaj için tasarlanmıştır."
+    },
+    {
+      "id": 4,
+      "title": "DIN 125 Düz Rondela",
+      "description": "Yüzey basıncını dağıtan düz rondela, vida ve somunların güvenli sabitlenmesini sağlar."
+    }
+  ]
+}

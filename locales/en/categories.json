@@ -1,0 +1,101 @@
+{
+  "baglanti-elemanlari": [
+    {
+      "guid": "paslanmaz-baglanti-elemanlari",
+      "description": "Stainless Steel Fasteners"
+    },
+    {
+      "guid": "celik-baglanti-elemanlari",
+      "description": "Steel Fasteners"
+    },
+    {
+      "guid": "demir-baglanti-elemanlari",
+      "description": "Iron Fasteners"
+    },
+    {
+      "guid": "pirinc-baglanti-elemanlari",
+      "description": "Brass Fasteners"
+    },
+    {
+      "guid": "titanyum-baglanti-elemanlari",
+      "description": "Titanium Fasteners"
+    },
+    {
+      "guid": "ozel-uretim-baglanti-elemanlari",
+      "description": "Custom Manufacturing Fasteners"
+    },
+    {
+      "guid": "10-9-ve-12-9-baglanti-elemanlari",
+      "description": "10.9 and 12.9 Fasteners"
+    },
+    {
+      "guid": "kama-baglanti-elemanlari",
+      "description": "Wedge Fasteners"
+    }
+  ],
+  "hirdavat": [
+    {
+      "guid": "delme-kesme-yaglari-grubu",
+      "description": "Drilling and Cutting Oils Group"
+    },
+    {
+      "guid": "is-guvenligi-grubu",
+      "description": "Safety Equipment Group"
+    },
+    {
+      "guid": "kaynak-ekipmanlari-grubu",
+      "description": "Welding Equipment Group"
+    },
+    {
+      "guid": "kesici-ve-asindirici-grubu",
+      "description": "Cutting and Abrasives Group"
+    },
+    {
+      "guid": "ambalaj-ve-paketleme-grubu",
+      "description": "Packaging and Wrapping Group"
+    },
+    {
+      "guid": "silikon-ve-sizdirmazlik-grubu",
+      "description": "Silicone and Sealing Group"
+    },
+    {
+      "guid": "sprey-boya",
+      "description": "Spray Paint"
+    },
+    {
+      "guid": "yapistirici-grubu",
+      "description": "Adhesives Group"
+    },
+    {
+      "guid": "el-aletleri",
+      "description": "Hand Tools"
+    },
+    {
+      "guid": "profesyonel-el-aletleri",
+      "description": "Professional Hand Tools"
+    }
+  ],
+  "bakim-kimyasallari": [
+    {
+      "guid": "bakim-kimyasallari",
+      "description": "Maintenance Chemicals"
+    },
+    {
+      "guid": "paslanmaz-spreyler",
+      "description": "Stainless Sprays"
+    }
+  ],
+  "moduler-su-deposu": [
+    {
+      "guid": "moduler-su-deposu",
+      "description": "Modular Water Tank"
+    }
+  ],
+  "header": {
+    "all": "All Categories",
+    "fastener": "Fasteners",
+    "technical": "Hardware",
+    "maintenance": "Maintenance Chemicals",
+    "modular": "Modular Water Tanks"
+  }
+}

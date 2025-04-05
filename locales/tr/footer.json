@@ -1,0 +1,72 @@
+{
+  "footer": {
+    "quickLinks": [
+      {
+        "path": "/baglanti-elemanlari/urunler",
+        "display": "Bağlantı Elemanları"
+      },
+      {
+        "path": "/hirdavat/urunler",
+        "display": "Hırdavat"
+      },
+      {
+        "path": "/bakim-kimyasallari/urunler",
+        "display": "Bakım Kimyasalları"
+      },
+      {
+        "path": "/moduler-su-deposu/urunler",
+        "display": "Modüler Su Deposu"
+      },
+      {
+        "path": "/blog",
+        "display": "Blog"
+      }
+    ],
+    "socialLinks": [
+      {
+        "url": "https://www.instagram.com/inoksistendustriyel/",
+        "icon": "ri-instagram-line",
+        "display": "instagram"
+      },
+      {
+        "url": "https://www.youtube.com/@InoksistEndustri",
+        "icon": "ri-youtube-line",
+        "display": "youtube"
+      },
+      {
+        "url": "https://www.trendyol.com/",
+        "icon": "ri-shopping-cart-line",
+        "display": "trendyol"
+      },
+      {
+        "url": "https://maps.app.goo.gl/1Fprbr4QfXuRa9j76",
+        "icon": "ri-map-pin-line",
+        "display": "maps"
+      }
+    ],
+    "info": {
+      "title": "İnoksist Endüstri",
+      "description": "İnoksist Endüstri Paslanmaz Civata ve Somun, yüksek kaliteli paslanmaz civata ve somun ürünleri ile endüstriyel çözümler sunmaktan gurur duyar. Deneyimimizle güvenilir ve dayanıklı ürünler sunarak, müşteri memnuniyetini ön planda tutarız. Kalite ve güvenin adresi İnoksist, her zaman yanınızda."
+    },
+    "categories": {
+      "title": "KATEGORİLER"
+    },
+    "contactInfo": {
+      "title": "İLETİŞİM BİLGİLERİ",
+      "address": "İkitelli OSB Mahallesi İmsan Sanayi Sitesi E Blok No:3 Küçükçekmece / İSTANBUL",
+      "phone": "Telefon:",
+      "email": "E-Mail:",
+      "hours": "Çalışma Saatleri:"
+    },
+    "getInTouch": {
+      "title": "BİZE ULAŞIN",
+      "description": "Bizimle İletişime Geçin"
+    },
+    "social": {
+      "title": "SOSYAL MEDYA"
+    },
+    "footerBottom": {
+      "text": "Tüm Hakları saklıdır"
+    }
+  }
+}

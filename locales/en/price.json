@@ -1,0 +1,43 @@
+{
+  "faq": [
+    {
+      "question": "Who is İnoksist Endüstri?",
+      "answer": "Founded in 2013, İnoksist Endüstri has quickly established itself as a key player in the fastener and industrial products sector, leveraging its accumulated knowledge and product expertise."
+    },
+    {
+      "question": "What services does İnoksist Endüstri provide?",
+      "answer": "İnoksist Endüstri offers a wide range of high-quality products, including fasteners, hardware, maintenance chemicals, and modular water tanks."
+    },
+    {
+      "question": "What are the prices of İnoksist Endüstri's stainless steel bolts and nuts?",
+      "answer": "For up-to-date pricing on fasteners, hardware, maintenance chemicals, and modular water tanks, please contact us."
+    },
+    {
+      "question": "Which fasteners does İnoksist Endüstri manufacture or supply?",
+      "answer": "İnoksist Endüstri manufactures or supplies stainless steel bolts, stainless steel nuts, stainless steel washers, flat washers, screws, pins, and rivets. Our products meet high-quality standards and are suitable for industrial applications."
+    },
+    {
+      "question": "What are the most popular products of İnoksist Endüstri?",
+      "answer": "Our most popular products include DIN 912 Allen Bolts, DIN 934 Hex Nuts, DIN 125 Flat Washers, and DIN 933 Hex Head Full Thread Bolts."
+    },
+    {
+      "question": "What is a stainless steel bolt, and why should it be preferred?",
+      "answer": "A stainless steel bolt is a fastener with high resistance to corrosion, offering durability and a sleek appearance. It is preferred for industrial and personal use due to its long lifespan and rust-resistant properties."
+    },
+    {
+      "question": "Why are DIN and ISO standards important for fasteners?",
+      "answer": "DIN and ISO standards ensure that fasteners meet specific criteria for dimensions, durability, and material quality. These internationally recognized standards guarantee quality and safety."
+    },
+    {
+      "question": "What should I consider when purchasing fasteners?",
+      "answer": "When buying fasteners, consider selecting the right material for the intended use, ensuring correct dimensions, corrosion resistance, and certified products. Additionally, the supplier's reliability and stock availability should be taken into account."
+    }
+  ],
+  "priceList": {
+    "faqTitle": "Frequently Asked Questions",
+    "title": "Price Lists",
+    "description": "For the current price, please contact us.",
+    "strongDescription": "CONTACT",
+    "buttonText": "Get in Touch"
+  }
+}

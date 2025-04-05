@@ -1,0 +1,122 @@
+{
+  "navLinks": [
+    {
+      "path": "/",
+      "display": "Anasayfa"
+    },
+    {
+      "path": "/hakkimizda",
+      "display": "Hakkımızda"
+    },
+    {
+      "path": "/baglanti-elemanlari/urunler",
+      "display": "Bağlantı Elemanları",
+      "subMenu": [
+        {
+          "path": "/baglanti-elemanlari/paslanmaz-baglanti-elemanlari",
+          "display": "Paslanmaz Bağlantı Elemanları"
+        },
+        {
+          "path": "/baglanti-elemanlari/celik-baglanti-elemanlari",
+          "display": "Çelik Bağlantı Elemanları"
+        },
+        {
+          "path": "/baglanti-elemanlari/demir-baglanti-elemanlari",
+          "display": "Demir Bağlantı Elemanları"
+        },
+        {
+          "path": "/baglanti-elemanlari/pirinc-baglanti-elemanlari",
+          "display": "Pirinç Bağlantı Elemanları"
+        },
+        {
+          "path": "/baglanti-elemanlari/titanyum-baglanti-elemanlari",
+          "display": "Titanyum Bağlantı Elemanları"
+        },
+        {
+          "path": "/baglanti-elemanlari/ozel-uretim-baglanti-elemanlari",
+          "display": "Özel Üretim Bağlantı Elemanları"
+        },
+        {
+          "path": "/baglanti-elemanlari/10-9-ve-12-9-baglanti-elemanlari",
+          "display": "10.9 ve 12.9 Bağlantı Elemanları"
+        },
+        {
+          "path": "/baglanti-elemanlari/kama-baglanti-elemanlari",
+          "display": "Kama Elemanları"
+        }
+      ]
+    },
+    {
+      "path": "/hirdavat/urunler",
+      "display": "Hırdavat",
+      "subMenu": [
+        {
+          "path": "/hirdavat/delme-kesme-yaglari-grubu",
+          "display": "Delme Kesme Yağları Grubu"
+        },
+        {
+          "path": "/hirdavat/is-guvenligi-grubu",
+          "display": "İş Güvenliği Grubu"
+        },
+        {
+          "path": "/hirdavat/kaynak-ekipmanlari-grubu",
+          "display": "Kaynak Ekipmanları Grubu"
+        },
+        {
+          "path": "/hirdavat/kesici-ve-asindirici-grubu",
+          "display": "Kesici ve Aşındırıcı Grubu"
+        },
+        {
+          "path": "/hirdavat/ambalaj-ve-paketleme-grubu",
+          "display": "Ambalaj ve Paketleme Grubu"
+        },
+        {
+          "path": "/hirdavat/silikon-ve-sizdirmazlik-grubu",
+          "display": "Silikon ve Sızdırmazlık Grubu"
+        },
+        { "path": "/hirdavat/sprey-boya", "display": "Sprey Boya" },
+        {
+          "path": "/hirdavat/yapistirici-grubu",
+          "display": "Yapıştırıcı Grubu"
+        },
+        { "path": "/hirdavat/el-aletleri", "display": "El Aletleri" },
+        { "path": "/hirdavat/profesyonel-el-aletleri", "display": "Profesyonel El Aletleri" }
+      ]
+    },
+    {
+      "path": "/bakim-kimyasallari/urunler",
+      "display": "Bakım Kimyasalları",
+      "subMenu": [
+        {
+          "path": "/bakim-kimyasallari/bakim-kimyasallari",
+          "display": "Bakım Kimyasalları"
+        },
+        {
+          "path": "/bakim-kimyasallari/paslanmaz-spreyler",
+          "display": "Paslanmaz Spreyler"
+        }
+      ]
+    },
+    {
+      "path": "/moduler-su-deposu/urunler",
+      "display": "Modüler Su Deposu",
+      "subMenu": [
+        {
+          "path": "/moduler-su-deposu/moduler-su-deposu",
+          "display": "Modüler Su Deposu"
+        }
+      ]
+    },
+    {
+      "path": "/fiyat-listeleri",
+      "display": "Fiyat Listeleri"
+    },
+    {
+      "path": "/iletisim",
+      "display": "İletişim"
+    }
+  ],
+  "search": {
+    "display": "Arama"
+  }
+}
