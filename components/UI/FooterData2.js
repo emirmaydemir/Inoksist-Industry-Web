@@ -99,7 +99,7 @@ export default function Footer() {
               <i className="ri-copyright-line"></i>
               {year} {footerData.footerBottom.text} inoksist.com.tr ®
             </span>
-            <a href="https://emirmaydemir.github.io/" target="_blank" rel="noreferrer" aria-label="GitHub profilime git" style={{ textDecoration: "none", color: "inherit" }}>
+            <a href="https://emiraydemir.com/en" target="_blank" rel="noreferrer" aria-label="GitHub profilime git" style={{ textDecoration: "none", color: "inherit" }}>
               <span>DigiSoftware</span>
             </a>
           </p>
